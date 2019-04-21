@@ -1,17 +1,20 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.RenderableVillager;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Activity;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.CarryingResource;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Status;
-import com.arthurvlug.ageofrevolution.gui.Locations;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.RenderableVillager;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Activity;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.CarryingResource;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Status;
+import com.arthurvlug.ageofrevolution.gui.location.AbsoluteLocation;
+import com.arthurvlug.ageofrevolution.gui.location.LocationCalculator;
+import com.arthurvlug.ageofrevolution.gui.location.Locations;
+import com.arthurvlug.ageofrevolution.utils.Debug;
 import com.arthurvlug.ageofrevolution.utils.ImageFileLoader;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.util.Optional;
 
-import static com.arthurvlug.ageofrevolution.game.fieldmaterial.Activity.FISH;
-import static com.arthurvlug.ageofrevolution.game.fieldmaterial.Activity.WOODCUTTER;
+import static com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Activity.FISH;
+import static com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Activity.WOODCUTTER;
 
 public class VillagerRenderer extends UnitRenderer<RenderableVillager> {
      public VillagerRenderer(final ImageFileLoader imageLoader,

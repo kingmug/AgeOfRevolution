@@ -1,20 +1,26 @@
 package com.arthurvlug.ageofrevolution.game;
 
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Activity;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.CarryingResource;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.RenderableResource;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.RenderableUnit;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Status;
-import com.arthurvlug.ageofrevolution.gui.Selection;
-import com.arthurvlug.ageofrevolution.gui.renderer.AbsoluteLocation;
+import com.arthurvlug.ageofrevolution.game.map.GameMap;
+import com.arthurvlug.ageofrevolution.game.map.MapElement;
+import com.arthurvlug.ageofrevolution.game.player.PlayerStats;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Activity;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.CarryingResource;
+import com.arthurvlug.ageofrevolution.game.renderable.resource.RenderableResource;
+import com.arthurvlug.ageofrevolution.game.renderable.RenderableUnit;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Status;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.RenderableVillager;
+import com.arthurvlug.ageofrevolution.game.selection.Selectable;
+import com.arthurvlug.ageofrevolution.game.selection.Selection;
+import com.arthurvlug.ageofrevolution.gui.location.AbsoluteLocation;
+import com.arthurvlug.ageofrevolution.game.move.Move;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import static com.arthurvlug.ageofrevolution.game.fieldmaterial.Activity.*;
-import static com.arthurvlug.ageofrevolution.game.fieldmaterial.Status.*;
+import static com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Activity.*;
+import static com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Status.*;
 
 @AllArgsConstructor
 @Getter

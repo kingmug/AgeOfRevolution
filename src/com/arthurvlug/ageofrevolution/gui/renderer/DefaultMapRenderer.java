@@ -1,7 +1,8 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
 import com.arthurvlug.ageofrevolution.game.Game;
-import com.arthurvlug.ageofrevolution.game.MapElement;
+import com.arthurvlug.ageofrevolution.game.map.MapElement;
+import com.arthurvlug.ageofrevolution.utils.Debug;
 import java.util.Collection;
 
 public class DefaultMapRenderer implements MapRenderer {

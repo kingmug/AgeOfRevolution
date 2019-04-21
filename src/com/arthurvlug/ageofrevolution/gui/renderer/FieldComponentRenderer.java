@@ -1,8 +1,10 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.Renderable;
-import com.arthurvlug.ageofrevolution.gui.Locations;
-import com.arthurvlug.ageofrevolution.gui.PixelLocation;
+import com.arthurvlug.ageofrevolution.game.renderable.Renderable;
+import com.arthurvlug.ageofrevolution.gui.location.AbsoluteLocation;
+import com.arthurvlug.ageofrevolution.gui.location.LocationCalculator;
+import com.arthurvlug.ageofrevolution.gui.location.Locations;
+import com.arthurvlug.ageofrevolution.gui.location.PixelLocation;
 import com.arthurvlug.ageofrevolution.utils.ImageFileLoader;
 import com.arthurvlug.ageofrevolution.utils.ImageTransformer;
 import java.awt.Color;

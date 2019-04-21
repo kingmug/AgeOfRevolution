@@ -1,13 +1,13 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Direction;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.RenderableUnit;
+import com.arthurvlug.ageofrevolution.game.renderable.Direction;
+import com.arthurvlug.ageofrevolution.game.renderable.RenderableUnit;
 import java.util.HashMap;
 import java.util.Map;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import static com.arthurvlug.ageofrevolution.game.fieldmaterial.Direction.*;
+import static com.arthurvlug.ageofrevolution.game.renderable.Direction.*;
 
 @Getter
 @AllArgsConstructor

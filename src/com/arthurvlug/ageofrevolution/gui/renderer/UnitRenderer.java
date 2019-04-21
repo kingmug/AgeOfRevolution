@@ -1,8 +1,9 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.Renderable;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Activity;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.Status;
+import com.arthurvlug.ageofrevolution.game.renderable.Renderable;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Activity;
+import com.arthurvlug.ageofrevolution.game.renderable.unit.villager.Status;
+import com.arthurvlug.ageofrevolution.gui.location.LocationCalculator;
 import com.arthurvlug.ageofrevolution.utils.ImageFileLoader;
 
 public abstract class UnitRenderer<T extends Renderable> extends FieldComponentRenderer<T> {

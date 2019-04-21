@@ -1,6 +1,7 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.RenderableResource;
+import com.arthurvlug.ageofrevolution.game.renderable.resource.RenderableResource;
+import com.arthurvlug.ageofrevolution.gui.location.LocationCalculator;
 import com.arthurvlug.ageofrevolution.utils.ImageFileLoader;
 
 public abstract class ResourceRenderer<T extends RenderableResource> extends FieldComponentRenderer<T> {

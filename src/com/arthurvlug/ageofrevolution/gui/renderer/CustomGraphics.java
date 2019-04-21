@@ -1,7 +1,8 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.gui.Locations;
-import com.arthurvlug.ageofrevolution.gui.PixelLocation;
+import com.arthurvlug.ageofrevolution.gui.location.Locations;
+import com.arthurvlug.ageofrevolution.gui.location.PixelLocation;
+import com.arthurvlug.ageofrevolution.utils.Debug;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;

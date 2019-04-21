@@ -1,14 +1,16 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.MapCoordinate;
-import com.arthurvlug.ageofrevolution.game.MapElement;
-import com.arthurvlug.ageofrevolution.game.Renderable;
-import com.arthurvlug.ageofrevolution.game.RenderableBuilding;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.RenderableResource;
-import com.arthurvlug.ageofrevolution.game.fieldmaterial.RenderableUnit;
-import com.arthurvlug.ageofrevolution.gui.Locations;
-import com.arthurvlug.ageofrevolution.gui.PixelLocation;
-import com.arthurvlug.ageofrevolution.gui.RenderFactory;
+import com.arthurvlug.ageofrevolution.game.map.MapCoordinate;
+import com.arthurvlug.ageofrevolution.game.map.MapElement;
+import com.arthurvlug.ageofrevolution.game.renderable.Renderable;
+import com.arthurvlug.ageofrevolution.game.renderable.building.RenderableBuilding;
+import com.arthurvlug.ageofrevolution.game.renderable.resource.RenderableResource;
+import com.arthurvlug.ageofrevolution.game.renderable.RenderableUnit;
+import com.arthurvlug.ageofrevolution.gui.location.AbsoluteLocation;
+import com.arthurvlug.ageofrevolution.gui.location.LocationCalculator;
+import com.arthurvlug.ageofrevolution.gui.location.Locations;
+import com.arthurvlug.ageofrevolution.gui.location.PixelLocation;
+import com.arthurvlug.ageofrevolution.utils.Debug;
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;

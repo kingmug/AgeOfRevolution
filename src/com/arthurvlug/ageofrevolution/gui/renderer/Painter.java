@@ -1,6 +1,6 @@
 package com.arthurvlug.ageofrevolution.gui.renderer;
 
-import com.arthurvlug.ageofrevolution.game.MapElement;
+import com.arthurvlug.ageofrevolution.game.map.MapElement;
 import java.util.Collection;
 
 public interface Painter {

@@ -1,6 +1,5 @@
 package com.arthurvlug.ageofrevolution.utils;
 
-import com.arthurvlug.ageofrevolution.gui.ImageCache;
 import com.google.common.base.Functions;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
